@@ -1,0 +1,66 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+weight = 2
+
+[[main]]
+parent = "About"
+name = "The People"
+url = "/authors"
+
+[[main]]
+parent = "About"
+name = "The Company"
+url = "/about"
+
+[[main]]
+weight = 4
+name = "Services"
+
+[[main]]
+parent = "Services"
+name = "Managed IT"
+url = "/it-services"
+
+[[main]]
+parent = "Services"
+name = "Tech Consulting"
+url = "/technology-consulting"
+
+[[main]]
+parent = "Services"
+name = "Bespoke Services"
+url = "/bespoke-services"
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+# footer menu
+[[footer]]
+name = "Videos"
+url = "https://vids.kilpen.com"
+weight = 1
+
+[[footer]]
+name = "Make a payment"
+url = "https://pay.kilpen.com"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3
